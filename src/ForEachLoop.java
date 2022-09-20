@@ -1,9 +1,10 @@
-public class Main {
+public class ForEachLoop {
     public static void main(String[] args) {
-        //For loop
+        //ForEachLoop
         String[] cars=new String[]{"Audi", "BMW", "Mercedes", "Toyota"};
-        for (int i=0; i< cars.length; i++){
-            System.out.println(cars[i]);
+        for(String car:cars){
+            System.out.println(car);
+
         }
     }
 }
